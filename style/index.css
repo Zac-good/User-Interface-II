@@ -86,20 +86,21 @@ h2 {
 }
 header p {
     text-align: center;
-    margin: 0 5%;
+    margin: 2% 5%;
 }
 .bgImg {
     height: 50vh;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwhiYLH0xKcxKF57kJD9DL0NqyQuB8_plRSQ&usqp=CAU');
     background-size: cover;
     background-position: bottom;
+    margin: 2% 0
 }
 .projects {
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: 85vh;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
 }
 .projectImages {
     display: flex;
@@ -115,4 +116,24 @@ header p {
 }
 .projectText {
     width: 20%
+}
+.projects button {
+    padding: 5%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(185, 180, 231);
+}
+footer button {
+    padding: 1%;
+    margin: 5%
+}
+nav a:hover {
+background-color: black;
+color: white;
 }
