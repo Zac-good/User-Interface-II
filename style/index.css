@@ -62,6 +62,7 @@ body {
     color: #4F4F4F;
 }
 h1 {
+    font-family: 'Chelsea Market', cursive;
     font-size: 6rem;
     text-align: center;
     padding: 1%;
@@ -77,9 +78,41 @@ nav a {
     text-decoration: none;
     font-size: 1.5rem;
 }
+h2 {
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    font-size: 5rem;
+    padding: 1%;
+}
+header p {
+    text-align: center;
+    margin: 0 5%;
+}
 .bgImg {
     height: 50vh;
-    background-image: url('https://github.com/BrityHemming/farm-to-table-practice-project/blob/solution/farm-to-table/images/dirt.jpg?raw=true');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwhiYLH0xKcxKF57kJD9DL0NqyQuB8_plRSQ&usqp=CAU');
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
+}
+.projects {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    width: 100%;
+}
+.projectImages {
+    display: flex;
+    justify-content: space-evenly;;
+  width: 100%;
+}
+.projects img{
+   display: flex;
+   justify-content: space-between;
+   width: 20%;
+   height: 80vh;
+   
+}
+.projectText {
+    width: 20%
 }
