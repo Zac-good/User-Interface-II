@@ -136,7 +136,73 @@ footer button {
     padding: 1%;
     margin: 5%
 }
-nav a:hover {
+nav a:hover{
 background-color: black;
 color: white;
+}
+
+@media(max-width: 800px){
+   h1 {
+       font-size:3rem;
+   }
+    h2{
+        font-size: 2.5rem;
+    }
+    nav a {
+        width: 11%;
+        font-size: small;
+    }
+    nav a:hover{
+        background-color: black;
+        color: white;
+        }
+    header p{
+        font-size: small;
+    }
+    .projectText{
+        font-size: small;
+    }
+    .projectText button {
+        padding: 7%;
+        width: 70%;
+        margin: 0 auto;
+        font-size: smaller;
+    }
+    
+}
+@media(max-width: 500px){
+    nav{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav a{
+        width:20%
+    }
+    .bgImg {
+        margin: 1% 5%;
+    }
+    .projects{
+        display: flex;
+        flex-flow: column;
+        height: fit-content;
+    }
+    .projectImages{
+        margin: 2% 0;
+        
+    }
+    .projects img{
+        width:fit-content
+    }
+    .projectText {
+        width: 80%;
+    
+    }
+    .projectText button{
+        width: 20%;
+        padding: 2%;
+        margin: 0 auto;
+        
+    }
 }
